@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trabalhando com formularios</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="estiloformularios.css"/>
+	</head>
+	
+	<body>
+		<form action="" method="get">
+			<label for="nome">Nome</label>
+			<input id="nome" type="text" placeholder="Digite seu nome" name="nome" />
+			<label for="opção">Você gostou do nosso site?</label>
+			<input id="opção" type="radio" name="opção" value="sim" checked="checked" />Sim
+			<input id="opção" type="radio" name="opção" value="nao" />nao
+			<label for="linguagem">Você quer aprender mais sobre:</label>
+			<input id="linguagem" type="checkbox" name="html">HTML
+			<input id="linguagem" type="checkbox" name="css">CSS
+			<textarea name="msg"></textarea>
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>

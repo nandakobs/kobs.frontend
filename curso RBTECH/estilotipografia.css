@@ -1,0 +1,18 @@
+h1{
+	color: #ff6600;
+	letter-spacing: -1px;
+	text-transform: capitalize; /*uppercase dexa td maiusculo, lowercase minusculo, e capitalize deixa td primeira letra em maiusculo*/
+	width: 650px;
+	text-shadow: 1px 1px 1px #000000; /*horizontal,vertical e desfoque*/
+	font-family: 'Open Sans', sans-serif;
+}
+.p1{
+	text-indent: 50px; /*espaço no começo do paragrafo*/
+}
+p{
+    width: 650px;    
+    text-align: justify;
+    font-size: 18px;
+    font-family: verdana, arial, sans-serif; /*pesquisar familia de fontes q sirvam pra tds os sistemas operacionais, assim como pesquisar best fonts for titule and the most comfort ones for reading*/
+
+}

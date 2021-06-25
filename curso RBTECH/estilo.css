@@ -1,0 +1,17 @@
+a{
+	color: red;
+    text-decoration: none;
+	font-size: 18px;
+}
+/* isso é um comentario no css */
+h1{
+	font-family: helvetica, sans-serif;
+}
+/* hashtags definem clases(class) e ponto definem id */
+#segundo{
+	color: orange;
+}
+body p a.link{
+	color: green;
+}
+/* ou só a.link,que afetaria tds os a em td a página */
