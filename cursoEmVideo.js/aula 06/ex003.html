@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(151, 71, 241);
+            color: white;
+            font: normal 20px Arial;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>
+        var n1 = Number(window.prompt("Digite um número")); //o comando prompt retorna uma string
+        var n2 = Number(window.prompt("Digite outro número"));
+        var soma = n1 + n2;
+        /* Ou seja, para que essa soma dê certo precisamos
+         * converter os valores. Usamos:
+         * Number.parseInt(n) para converter para números inteiros
+         * Number.parseFloat(n) para converter para números reais
+         * Number(n) para converter para números inteiros ou reais
+         * obs: adicionei Number ao comando prompt dps
+         */
+        window.alert("A soma dos valores é " + soma);
+        // (number + number) para adição
+        // (string + string) para cocatenação
+
+        /* Para converter numero para string
+         * String(n)
+         * n.toString()
+         */
+
+        
+    </script>
+</body>
+</html>

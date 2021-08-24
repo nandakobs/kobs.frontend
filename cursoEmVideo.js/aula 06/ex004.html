@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font:  normal 20px Arial;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+
+    <script>
+        // ANOTAÇÕES de coisas que aprendi no terminal
+
+        /* Formatando Strings - Template Strings
+         * 
+         * var ocup = 'estudando'
+         * var s = 'JavaScript'
+         * em vez de
+         * "Eu estou " + ocup + " uma linguagem de programação chamada " + s
+         * você pode dizer
+         * `Eu estou ${ocup} uma linguagem de programação chamada ${s}`
+         * REPARE no acento que deixa isso acontecer é a crase(shift+acento)
+         * ${} isso se chama placeholder
+         * 
+         *  s.length        //retorna quantos caracteres a string tem
+         *  s.toUpperCase() //passa tudo pra MAIÚSCULAS
+         *  s.toLowerCase() //passa tudo para minusculas
+         */
+
+        var nome = window.prompt("Qual é seu nome?");
+        document.write(`Olá <strong>${nome}</strong>, seu nome tem ${nome.length} letras. <br/> `);
+        document.write(`Seu nome em maiusculas é ${nome.toUpperCase()} . <br/>`)
+        document.write(`E seu nome em minusculas é ${nome.toLowerCase()} `)
+        
+        /* Formatando Números
+         *
+         *  var n1 = 1543.5
+         *  n1.toFixed(2) //deixa o numero com 2 casas decimais
+         *  n1.toFixed(2).replace(".", ",") //troca ponto por virgula
+         *  n1.toLocaleString('pt-BR',{style:'currency', currency:'BRL'}) //tranforma numero em dinheiro R$
+         *  tipo, localizar para o Brasil, currency que é dinheiro e a moeda é reais(BRL),
+         *  se vc colocar 'USD' fica em dólar, 'EUR' em euro e assim por diante
+         * 
+         */
+    
+    </script>
+</body>
+</html>
