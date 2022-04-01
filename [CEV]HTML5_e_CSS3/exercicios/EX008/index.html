@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Outras formatações</title>
+    </head>
+    <body>
+        <h1>Outras formatações</h1>
+        <h2>Código Fonte</h2>
+        <p>O comando <code>print(Olá Mundo!)</code> é escrito na linguagem Python.</p>
+        <pre> <!--Pré-formatação: respeita a formatação feita no html-->
+            <code> <!--Deixa com fonte mono-espaçada-->
+                num = int(input('Digite um número'))
+                if num % 2 == 0:
+                    print(f'O número {num} é PAR')
+                else:
+                    print(f'O número {num} é IMPAR')
+                print('Fim do Programa')
+            </code>
+        </pre>
+        <!-- SHIFT + TAB volta a tabulação-->
+        <h2>Citações</h2>
+        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+        <!-- tag Q de quote, tem valor semantico, adiciona aspas-->
+        <h2>Citações completas</h2>
+        <blockquote cite="https://www.goodreads.com/quotes/10391301-celia-st-james-is-going-to-ruin-everything#:~:text=Quote%20by%20Taylor%20Jenkins%20Reid,is%20going%20to%20ruin%20everything.%E2%80%9D">
+            “You see, Harry?" I said. "Celia St. James is going to ruin everything.”
+            <!--Comentário de bloco, espaçamento a esquerda, o cite referencia o autor do quote-->
+        </blockquote>
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou amando!</p>
+        <h2>Texto Invertido</h2>
+        <p>
+            <bdo dir="ltr">Fernanda</bdo><!--left to right, mostra normal-->
+            <bdo dir="rtl">Kelly</bdo><!--right to left, inverte-->
+        </p>
+    </body>
+</html>
