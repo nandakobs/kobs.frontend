@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica, formas e formatações</title>
+    <style>
+        .blue_mark {
+            background-color: rgb(19, 172, 199);
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Semântica é SIGNIFICADO
+        FORMA (cor, negrito, estilização) é CSS
+    -->
+
+    <!--
+        CTRL + SHIFT + P
+        digita ABB
+        escreva nome da tag que <strong>você</strong> quer que envolva o texto previamente selecionado
+    -->
+
+    <h1>Principais formatações</h1>
+
+    <h2>Negrito / Destaque</h2>
+    <!-- FORMA / SIGNIFICADO -->
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
+
+    <h2>Itálico / Ênfase</h2>
+    <!-- FORMA / SIGNIFICADO -->
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+
+    <h2>Texto inserido / Texto sublinhado</h2>
+    <!-- SIGNIFICADO  /  FORMA -->
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+    
+    <!-- As tags B, I e U são de estilo, ainda são válidas, elas vem do HTML4 e a tendencia é que caiam em desuso -->
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark class="blue_mark">um texto marcado</mark> usando a tag MARK.</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+    <!-- Só da pra mudar a cor do MARK com CSS? Sim. -->
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <!-- BIG está em vermelho (no VS Code) pq já está em desuso. No entanto SMALL segue firme forte, pra fazer sentido pense em linhas miudas de contrato ou crédito... -->
+    
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+
+    <!-- Matematiquês abaixo -->
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>

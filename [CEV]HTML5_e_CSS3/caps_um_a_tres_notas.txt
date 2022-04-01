@@ -1,0 +1,61 @@
+Representação de Dados
+
+O computador é um equipamento eletrônico, logo, como todo equipamento eletrônico ele funciona com sinais e esses sinais para computação são representados como zeros e uns, que na verdade são representados como ondas quadradas(ou ondas binarias) que são sinais eletricos com e sem sinal (com sinal seria o um e o sem sinal seria o zero). A tupla, zero e um, é chamada de dígitos binários (binary digit, simplificado pra bit). Ou seja, um bit, pode ter dois estados (zero ou um).
+
+Oito bits é a porção minima para que se represente algum dado, e é chamada de byte.Por exemplo a sequência 01000001 é representada para interpretar a letra A. Quando você aperta a tecla "A" o que o seu computador recebe é essa sequencia de bits. Para saber a tabela inteira procure por código multibyte utf-8. Esse código multibyte utiliza de 1 a 4 bytes para representar letras, símbolos, caracteres acentuados e até mesmo emojis.
+
+Múltiplos do byte
+
+1024 bytes = 1 KB (kilobyte)
+   1024 KB = 1 MB (megabyte)
+   1024 MB = 1 GB (gigabyte)
+   1024 GB = 1 TB (terabyte)
+|Nós humanos trabalhamos com o sistema de numeração de base 10, ou seja mil gramas são um kilo. Mas na computação se trabalha com a base 2, então a referência é sempre 2 elevado a 10 (2^10) que é 1024.
+   1024 TB = 1 PB (petabyte)
+   1024 PB = 1 EB (exabyte)
+   1024 EB = 1 ZB (zettabyte)
+   1024 ZB = 1 YB (yottabyte)
+E por aí vai...
+
+|MB != Mb
+ MB é de megabytes e geralmente é utilizado pra representar armazenamento. Ex: Pendrive de 6GB, é gigaBYTE.
+ Mb é de megabits, e é usado mais para transmissão. Ex: A minha internet em casa é de 60 mega, é megaBITS. Uma rede muito rápida é de 1 giga, gigaBIT.
+
+
+Como nos conectamos?
+
+Chamamos os dispositivos eltronicos, como celular, tablet e computador de CLIENTE. E quando precisamos acessar algum recurso (foto, video, audio e etc) que está na internet.
+
+MODEM faz MOdulação (ondas quadradas do pc para ondas de rádio) e a DEModulação (ondas de rádio para as ondas quadradas).
+
+https://www.iplocation.net/
+
+
+
+DOMINIO é o nome que identifica seu site
+> Nome único
+> Pago anualmente
+> vários TLDs (.com, .io, .gov)
+
+HOSPEDAGEM é o local onde seu site vai estar armazenado
+> Espaço pra armazenar dados
+> Pago mensalmente
+> Espaço, memória, recursos
+
+gustavoguanabara.github.io [URL]
+	gustavoguanabara [sub-dominio]
+	github.io [dominio]
+	      .io [TLD]
+
+www.github.com/gustavoguanabara [URL]
+	www [sub-dominio]
+	github.com [dominio]
+	.com [TLD]
+	/gustavoguanabara [caminho]
+
+
+
+HTML é conteúdo (textos, imagens, videos, tabelas)
+CSS é design (cores, sombras, tamanhos, posicionamento)
+JS é interações (menus, animações, popups validação)
+

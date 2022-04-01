@@ -1,0 +1,12 @@
+JPEG - alta compactação
+PNG - transparência e maior qualidade
+
+1500 de largura já é um tamnho de largura top
+Redmensionar img é fundamental
+
+1500, 72 resolução
+1200, 50 resolução
+650
+brinca ae
+
+crtl+space
