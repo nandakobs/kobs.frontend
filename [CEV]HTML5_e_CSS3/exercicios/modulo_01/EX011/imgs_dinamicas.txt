@@ -1,0 +1,5 @@
+resolução 80
+P - 300x300  #fbe9d1
+M - 700x700  #f4d9c2
+G - 1000x1000  #abc7ab
+letras correspondentes centralizadas na cor preta com 50% de opacidade
